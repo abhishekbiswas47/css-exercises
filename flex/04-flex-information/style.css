@@ -12,6 +12,32 @@ img {
   font-weight: 900;
 }
 
+/* Solution */
+
+.title,
+.plants {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.barberry,
+.chili,
+.pepper,
+.saffron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.text {
+  padding: 0 32px 0 32px;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
